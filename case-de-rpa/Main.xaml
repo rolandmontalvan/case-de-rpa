@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="606,5215" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uasb="clr-namespace:UiPath.Activities.System.Binding;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="836,6165" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uasb="clr-namespace:UiPath.Activities.System.Binding;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
       <x:String>System.Activities</x:String>
@@ -71,7 +71,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <ueab:SequenceX sap:VirtualizedContainerService.HintSize="616,5150" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+  <ueab:SequenceX sap:VirtualizedContainerService.HintSize="670,6100" sap2010:WorkflowViewState.IdRef="SequenceX_1">
     <ueab:SequenceX.Variables>
       <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
       <Variable x:TypeArguments="uasb:BindingsRepository" Default="[new UiPath.Activities.System.Binding.BindingsRepository()]" Name="Saved" />
@@ -81,7 +81,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Nova guia - Trabalho — Microsoft​ Edge" sap:VirtualizedContainerService.HintSize="574,5060" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Nova guia - Trabalho — Microsoft​ Edge" sap:VirtualizedContainerService.HintSize="628,6010" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -92,17 +92,17 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="562,4766" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="616,5716" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="520,225" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="1e4e4be8f16b8bc724110902c7f9619e">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="574,225" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="1e4e4be8f16b8bc724110902c7f9619e">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="529, 995, 863, 32" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge' role='document' /&gt;&lt;ctrl name='Digite seu token' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge' role='document' /&gt;&lt;ctrl name='Digite seu token' role='editable text' automationid='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAA2MAAAAkCAYAAAAEhOJAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPUSURBVHhe7ds/bxNJGMDh+8C0lDSUdJR0NHyJFBR8gJNQLpbi6HAUUQBSOI5wKT3nGc9uZmbXIWBvTMzzSK+UXXv/pftp1n8EAAAA7p0YAwAA2IPRGFsul/kvAAAAtrGpr6oYu/zn33D690U4mZ+HP/+aG2OMMcYYY4zZcmbzRTh9dxEuv3zN5bXWx1gMsbPz9+Hqv+u8BwAAgF24+nadeqsMsj7G4oqYEAMAAJhGDLK4QtZJMRbfYTyZL9IOAAAApjE7O+9/Q9avjMV3GQEAAJhO2V1iDAAA4J6IMQAAgD0QYwAAAHsgxgAAAPZAjAEAAOyBGAMAANiD+4mxj2/C08fPw9HHvH2LD6+fh0fP3oQPefvBS8/+KrzNmwAAANEOYuxTOHr2JDx6XM+L4/zxNn7RkHn78kl4+vpT3voOMQYAAIzYUYy1q16z8CJG2ctZ3v5JYgwAADhQE8VYFIMs7x8ESY61NKv9x6/6cEuvKca/477+O2X8lMfe8upjumb3vZtrp/N3+4tYjIFVreYV93SjXQW8OW88fmx//ez5+OI1zPK4+hlXz3ZcPMO2YQsAAPxSJoyxYgVpJEhuwqdeRetjLBpEXHPs4PNOEYKlGFhNCHUBdLcYWyuPiwa/cyuvU9xjCq/inNWzVs+W/yf9Odfb1f0BAAAP2qQxFmNjEGNNECVF+NwaY4NjN127Db5oZF9x3Z+PsbHwK+4rP8NRG2wjx/X/r5HP2gAEAAAetslXxlLgtDHWRs6PxFj32l4x4ytGeXWp/3wdY+2xXSBtF2PFPWb1s8drtf+jm/urJl3ztlADAAAOwXQxVoZUG2PNylgZYN+NsQ2BtFkXNpujMdouxtrzDlfG0u/iqmgbj7g1MQYAAIdumhjLq0F93FRRFUOjDJ/19p1ibHDsXaxXxOIx6dztK5JZdd3mnlp1jK23q/OWwVk8Q7pG8TzpuNFriDEAADh0O4qxVVTEeOmnWfFpoyrHWv/dYhWqjqIcLKvv9SFSHbua0bjKMZVnEE7FZ4MoTFPf00B/D01YdceX99Q8+/p7XWi1/7tuvxgDAIBDt4MY257QAAAAfjf7j7G0ctS85ggAAHDg9hBj9SuEcX7sN2AAAAAP3/5XxgAAAH5DYgwAAGAPBjG2XC7DbL5IOwAAAJhG7K7YX1G/Mnb67iJcfbvOWwAAAOxS7K3YXZ0+xi6/fA1ni/eCDAAAYMdiZ8Xe+rzqrk4fY1EMslhqJ/NFepfRGGOMMcYYY8x2E19NjJ1VhlhUxVine4cRAACA7Wzqq9EYAwAAYFpiDAAA4N6F8D9idtSgMzSOSwAAAABJRU5ErkJggg==" InformativeScreenshot="b216a1c1af4043e7918be6199af64468.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Trabalho — Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, Image" SelectionStrategy="AA">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="529, 974, 27, 16" ElementType="InputBox" FriendlyName="'Token'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge' role='document' /&gt;&lt;ctrl role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge' role='document' /&gt;&lt;ctrl role='editable text' automationid='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAUCAYAAAB1aeb6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVEhL7ZFRDoMgDIZ3lT34sFOZLPEihHgZo0dRzsElOv+ClDElIUvkhT8hUvqXr8UHVVSDV1GDk50Henavr9XP1mcTbeN1rkA/k6MJtfngSvfALU3vk5cIcJeP98470gqfXajXSzhPG87CsZcCXD7QhJDhRmJk46Z3qEId4N3hMaSOpryy8FXL5VDI7XBMIi8Er7wQL20cHF8Wmi+A5ye3DIy9cTOsf+CuQKYJ58k/5ynPvKXwO9XgVdTgFUT0AamOKK3RdBeDAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -114,7 +114,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Iniciar'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Iniciar'" sap:VirtualizedContainerService.HintSize="574,165" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
               <uix:NClick.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="421, 1018, 69, 38" ElementType="Button" FriendlyName="'Iniciar'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge' role='document' /&gt;&lt;ctrl name='Iniciar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge' role='document' /&gt;&lt;ctrl name='Iniciar' role='push button' automationid='' check:text='Iniciar' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAqCAYAAAD/E3YoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHCSURBVGhD7Zo7TsNAEIa5AhVIORwIJChzAFok4BS+AK+CPiegdkdHQxPR0C4zxr8y+/DEPCwU7/9Jf2HP2pv5sutq9wLZCiWNIJP0+h7C+WMIh1dSvKgr2vPZw5cDSyRJi4ub/OHasriORUWS1GLpoRpzdNtLESJJBxVusaGoCxBJKg2uOYCSnABKcgIoyQmgJCeAkpwASnICKMkJoCQn4N8krT5kwrdyLU0j44KMXxZqUwb8iaRWnm2fy7WhUNJMAijJCZhEkm6l9Uu/TUCyXTAG15qlXEf027F7T7I1dU5LY2oYj/nTecYGTCZJsfd0jP2xqSQ0ZJttezGpJJW5etpcd3XzJ+Bdv13dYDpJpilNt0pMI5EkaXgtZdu4TSopi8ytQHAq7acBk243O8aVpE06TZUkZVtTiCR5UkcG7KQknS8aX1pJs5P0ne2WCCndm6ckSdeYYJsvfrgLQruVJcxekgaiAN6ZNp1+j5pdWElzDaAkJ4CSnABKcgIoyQmgJCeAkpwASnICKMkJiCTx6M0mg0dvTu7ywbXmWFyASJIegdu/zB+oLepg8DigosXT+3oPluoKsoKUTBLJoaSthPAJ1cd1ErlEXGcAAAAASUVORK5CYII=" InformativeScreenshot="9b5689a4bed0df378b92a5b91b504b93.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Trabalho — Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, Image" SelectionStrategy="AA" />
               </uix:NClick.Target>
@@ -124,7 +124,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="520,4204" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="Remessas.xlsx">
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="574,5154" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="Remessas.xlsx">
               <ueab:ExcelApplicationCard.Body>
                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                   <ActivityAction.Argument>
@@ -135,13 +135,13 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="508,3933" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="562,4883" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NGetText DisplayName="Get Text 'Número do lote'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_1">
+                    <uix:NGetText DisplayName="Get Text 'Número do lote'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_1">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="601, 375, 899, 24" FriendlyName="'406398'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='12' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="6576496ee209b2f3355b0483c3ce9c98.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 1 página -*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA">
                           <uix:TargetAnchorable.Anchors>
@@ -160,11 +160,11 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text 'Ian Machado'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_4">
+                    <uix:NGetText DisplayName="Get Text 'Ian Machado'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_4">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="825, 188, 55, 11" FriendlyName="'003621354'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='19' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="87ef089bb3ba7afb4641a68207e7c436.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 1 página -*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="879, 188, 55, 11" FriendlyName="'Ian Machado'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='20' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:text='Ian Machado' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAPCAYAAABazrcIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVEhL7ZbBCoJAFEX7/+9oWYsWQW2CtCxUxkZRYgiJwsjAQJdubm9soloYrSqmOSA+73uDnnEzHfwRRlZX2mULgbhQ9RNn2AOGkqrScRFfwztRAq7KR46UH1X9Ldplc/ro7Iw0YOBJiMVGwI8qapzALQt8m4J3qVffZqhP8+XKxSRj8Ncqzw/wvQOEF2AehNhTFtfXV3ya17JLBjtzYM+ozkkyOlFD3ncQQwsioHytZqa0IY2s/LN0jVQeSVnaGOsmG/6grIYYWV0xsrpiZHXFyDYUDL3+GH6unt9FHkbkmsJFz5Mnrgq2I5rWdwEuXW+qYlD2ZbcAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -179,11 +179,11 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text 'Emanuel Marques'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_5">
+                    <uix:NGetText DisplayName="Get Text 'Emanuel Marques'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_5">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="825, 199, 55, 10" FriendlyName="'003697555'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='24' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="96527088355bdcfd4932e18dc3b82ca6.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 1 página -*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="879, 199, 55, 10" FriendlyName="'Emanuel Marques'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='25' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:text='Emanuel Marques' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAOCAYAAACRkmStAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVEhL7ZZBa4NAEIX7/39Er8khhXroIT0sqEFhNYqKEhaR9GCoogGFXnp5fVvt0dBC2oD1weC4zgzzzeKyd/hHWmDnqmnYNsDmYQu/Gt+/qypDpHNaiY3X0+lhO+rz0601DVtJrNYS6iWGm9A3FGxPoSsL2KFC5Em8ejFUQjjQzAAidCB28QBLaCEyFHmGey8j8wnKiZGylshCuKzjhjUi5oO2P0jWt2AKyQH3eB+6uKouwBIy7/FW6p2iJaCxETaesmlzbDI6BLDzLZ5Nxh9rNIWO1/l8Hgs8igI+45owYCzzd1wvdW0Og7Aph6aeLMIG8MszmlavMX7o4qq64T+rd7Ue/b/RckDNVQvsXLXAzlXTsBM3oK48ofu6JV3UGa5hYGWpX7kg/FzAB0/wtB+9snx2AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -198,11 +198,11 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text 'Matheus Barros'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_6">
+                    <uix:NGetText DisplayName="Get Text 'Matheus Barros'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_6">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="825, 208, 55, 10" FriendlyName="'003643005'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='29' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="30ee9d5deb9d77920d5e338c8d876e51.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 1 página -*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="879, 208, 55, 10" FriendlyName="'Matheus Barros'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='30' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:text='Matheus Barros' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAOCAYAAACRkmStAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEbSURBVEhL7Za9boMwFEb7/g+RNUuGZugYD0SCChwouNDIQqgKogKrIMHQIcvXL8RTVbo1lShn4fpa/jkXkH2Hf8QiO1cW2ZHWxyYYGAzYu/qaI331hr7JEDc2MUkHb7vF2tE428xfMy1LISEyFHmGVZBRssA+ekEZhCirBEJlkCqH5zB2HnFQBrV6ws5NUA8XPQPp+BDRyY5lwRTbOoI4dkijBGUUIpQ+ZDPcpCA/ysavBe5FQSluiMIpRZ65wbK6vFmDWKXMn1C35dgvhYe80fBUxwkoa3M7O7ZmgeLxqzhb2QRxa5Cy//266q+y/LNzZZGdK4vsXJmW5aVi7Ro+NVKeg/3Xg3DqYnF0sXrwoT9s+zsGzmfD2wF8AudzuXBe/PHBAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -217,11 +217,11 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text 'Nicolas Ferreira'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_7">
+                    <uix:NGetText DisplayName="Get Text 'Nicolas Ferreira'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_7">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="825, 218, 55, 11" FriendlyName="'003664470'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='34' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="4f90219883a25894bcad3e4be9823446.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 1 página -*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="879, 218, 55, 11" FriendlyName="'Nicolas Ferreira'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='35' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:text='Nicolas Ferreira' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAPCAYAAABazrcIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEnSURBVEhL7ZZBS8MwFMf9/t/AizcRb3rowUsPLaSjdq1NSClFpjA7aFmDLbjDLn/fm93cwc2TPcT8ICR5zXvwSyi8C/wjnKytnJbtYtyIluYKuhnQb8f4nqZA3ozrY0qBKy9GtRn3PzFQvXE5JadlSSbJJBJFUkWBeVZA1wPeS4rVEtFMIq8NFlmKnIZfGnxwnnrApSfxVsYIHwNEStK3FyRBhfU+FlBNFcPvNli/Ui1FlzoBZ2X55RbeNUKWJbnkSDZh2VmKsBYI5wZLIaE5jy+Hpm2Z0jmDvuY6Lcm137EnluVzFSKxgi8Kzvxz3D9rK07WVpysrThZWzkja6CpKzrQraCf268u6YBBeJ/uWr9exNC/tIHcSDA6uMUd5S13O2KS9hH4BPtKpJN/3EYuAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -237,11 +237,11 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text 'João Miguel Reis'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_8">
+                    <uix:NGetText DisplayName="Get Text 'João Miguel Reis'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_8">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="825, 229, 55, 10" FriendlyName="'003604933'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='39' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="8896e521c3ac64efbbc07bbaad11676d.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 1 página -*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="879, 229, 55, 10" FriendlyName="'João Miguel Reis'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='40' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:text='João Miguel Reis' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAOCAYAAACRkmStAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEmSURBVEhL7ZbBToQwEIZ9/+fw4k0PXjx4KKZoQbDFEtKYjVmUCBESmuiBy++04JE1JrvJhuW7dJrpNP2GAD3DCbHKLpUdsh100U0x0VbQLw2+pulIh+AqQU9RzwW0tT6eQ2a5HzW7wCXVlX5G/FG3L3bINnQ4jTiqsIkUSlvBcAVZKMTvCmExjGsYg3zdQJ4nXubR5WuB8C6HrMc9QqZwyyg3yUpONTzHWyEQRIzyOUQqqM7C7XooZmUHaxCmhZctSfY5JRk63MP9KBv/ymZbmGsGk5Kcl00ozxGE1JBM4Ya7hm3x0Vqfd7hxoKZI6dZ26J+ozjbQUY5Pv+Iw7P+d/a4g6SnpepofEesHaqmssktllV0q87KtgW6n+N9Y/8+UdOM6HoAf04+4OEJTstsAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -256,7 +256,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text '003047476'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_9">
+                    <uix:NGetText DisplayName="Get Text '003047476'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_9">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="421, 705, 217, 38" FriendlyName="'003047476'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='44' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="fb777a90733f09a47b2eeb4339e3577a.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 5 páginas *' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" />
                       </uix:NGetText.Target>
@@ -269,7 +269,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text '003018454'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_10">
+                    <uix:NGetText DisplayName="Get Text '003018454'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_10">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="421, 743, 217, 38" FriendlyName="'003018454'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='49' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="f7f808948e81b22b2146ad26ecdcb1bc.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 5 páginas *' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" />
                       </uix:NGetText.Target>
@@ -282,7 +282,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text '003068385'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_11">
+                    <uix:NGetText DisplayName="Get Text '003068385'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_11">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="421, 781, 217, 38" FriendlyName="'003068385'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='54' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="6a22aa1ee56198986da6c468aebb5a89.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 5 páginas *' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" />
                       </uix:NGetText.Target>
@@ -295,7 +295,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text '003077489'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NGetText_12">
+                    <uix:NGetText DisplayName="Get Text '003077489'" sap:VirtualizedContainerService.HintSize="520,165" sap2010:WorkflowViewState.IdRef="NGetText_12">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="421, 819, 217, 38" FriendlyName="'003077489'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl idx='59' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="9618bd7bdc35de22732beae494e435a4.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos e mais 5 páginas *' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" />
                       </uix:NGetText.Target>
@@ -308,19 +308,24 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: ST Logística - Rastreamento de Pacotes v1.00" sap:VirtualizedContainerService.HintSize="466,1791" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" Version="V1">
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: ST Logística - Rastreamento de Pacotes v1.00" sap:VirtualizedContainerService.HintSize="520,2476" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" Version="V1">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="454,1497" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="508,2182" sap2010:WorkflowViewState.IdRef="Sequence_7">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Número do lote'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="412,225" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Text="[Remessas.Sheet(&quot;Sheet2&quot;).Cell(&quot;A2&quot;)]">
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Número do lote'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="466,225" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Text="[Remessas.Sheet(&quot;Sheet2&quot;).Cell(&quot;A2&quot;)]">
                               <uix:NTypeInto.Target>
                                 <uix:TargetAnchorable DesignTimeRectangle="131, 122, 193, 21" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Edit' idx='3' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Edit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMUAAAAZCAYAAACBxOqkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABpSURBVHhe7dNBDYAwAMBAdE/1HMCDBEIBBbtLKqHbnHOXdGcKKV1TjDGkpfucAlZlCghTQJgCwhQQpoAwBYQpIEwBYQoIU0CYAsIUEKaAMAWEKSBMAWEKCFNA/E4hrdxrCklnppAezf0Aqdp9NHmSElwAAAAASUVORK5CYII=" InformativeScreenshot="4adcbd414737e690420d538660592d31.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="FuzzySelector, Image">
                                   <uix:TargetAnchorable.Anchors>
@@ -331,7 +336,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NTypeInto.Target>
                             </uix:NTypeInto>
-                            <uix:NClick ClickType="Single" DisplayName="Click 'Carregar Lote'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Carregar Lote'" sap:VirtualizedContainerService.HintSize="466,165" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable DesignTimeRectangle="27, 146, 299, 25" ElementType="Button" FriendlyName="'Carregar Lote'" FullSelectorArgument="&lt;wnd cls='Button' title='Carregar Lote' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Carregar Lote' check:text='Carregar Lote' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAS8AAAAdCAYAAAD7G+rKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIOSURBVHhe7drRkYMgFIVhe6IbmqEVGkgRlJIO0gELRBTuQszObmZF/odvooBXXnIGSJbH4+EBYDSEF4AhEV4AhlSF1+12A4DTKvPqW3jd73cAOB3CC8CQCC8AQyK8AAyJ8AIwJMILwJAIr8k4o71aFr9ESnltXXPcv3PGK2W8a/UBAeE1EWdUCCzjrVvbnPV6Ud7k+zP5SXgRdFMivKbhvAkrrVMGVQvhhQOE1yyOvuC22E6G1Zi2oS09o73WYcWWtpn5WofVm/Fa5e2n3kOxan+u9NI7D+uHmuV8evMV77UplPP9Or43N1wK4TWLXhi05LHxM24r47lYeS1XcVvtZ5Bs52i9d7bq98ZU7XX9tA3WVoztzS3XwFUQXrM4+hKHfh1XSnl1lMMlPyOv87hNDCHxDvHMy/pSq0+25fuyPV5X84qKMMNlEF7TECuSynpwL1dMMhSqgBDbPDmmun+jvtTq69Uv2+N1a264HMJrIv1fG+PnfjYU/07xcuWVt29Gbg/FtjGec6X2N+pLzb53t42tuZV1cAWE12Sq/3mF4NqDYG9XcXsnw0WGQAy8EBKpjjiw3+rnOu/Ul8o62RpU+3vzszYF1nbo35sbLoXwwse4sPJKgdPoA36L8MKfsvlvFax68GGEF4AhEV4AhkR4ARgS4QVgSIfhBQBnVeZVFV4AMArCC8CQCC8AA3r4Lzg262JKFz8JAAAAAElFTkSuQmCC" InformativeScreenshot="fc8516e13611cea6d9fc463b4a2c8a03.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
                                   <uix:TargetAnchorable.PointOffset>
@@ -340,42 +345,114 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="412,80" sap2010:WorkflowViewState.IdRef="Delay_3" />
-                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Código da remessa'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="412,225" sap2010:WorkflowViewState.IdRef="NTypeInto_8" Text="[string.Format(&quot;00{0}&quot;, Remessas.Sheet(&quot;Sheet1&quot;).Cell(&quot;A2&quot;))]">
-                              <uix:NTypeInto.Target>
-                                <uix:TargetAnchorable DesignTimeRectangle="131, 210, 193, 21" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Edit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMUAAAAZCAYAAACBxOqkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABpSURBVHhe7dNBDYAwAMBAdE/1HMCDBEIBBbtLKqHbnHOXdGcKKV1TjDGkpfucAlZlCghTQJgCwhQQpoAwBYQpIEwBYQoIU0CYAsIUEKaAMAWEKSBMAWEKCFNA/E4hrdxrCklnppAezf0Aqdp9NHmSElwAAAAASUVORK5CYII=" InformativeScreenshot="852dd23ca1d19e844679d2eee72526d5.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
-                                  <uix:TargetAnchorable.Anchors>
-                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                      <uix:Target DesignTimeRectangle="27, 210, 97, 17" ElementType="Text" FriendlyName="'Código da remessa'" FullSelectorArgument="&lt;wnd cls='Static' title='Código da remessa:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='Código da remessa:' check:text='Código da remessa:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGUAAAAVCAYAAABfXiAOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIRSURBVGhD7VfhjcYgCHUq53Ebh3EXZ+kGHlihYNH2cvddTM4fL8FXoZSnaN1xHGVjLWxRFsQWZUFsURaEEiXHULxzxSG8LyFlNTlHX1xIimPkWLyPJVvPfopPxl4QLEotOHx4yu1hTiU4XyKNj1wiCHWNO1DhPlHA/yrKtOBvsHfKr4FFmX40FCV4amuhJIP3ICruNLVTlF97PosnYcVGPokWCzs5pLufh5ghgI+D2N276sJTcyB+TCVWW7Rsyw/42lHo3fGca3HjPLEDDb654YUo2LYcJ3udKx0PSWhR9POzEHfePqcGsdUcAMfsOChCrL4YR3QAmk9zSCBpc46Gnyxo9UPb4pofgf07foBnUfqANH7iv+tHY4uTY7AD7hxahTNftHm1ElCwbk5vj/zyuVjqJQh2V66iWdwZa5rnBM9nikxajp/47/rR2OJ43C4ft93X5vUc2k8r17JHfgS4BJ3tTsxR3Is8J2BRxrevrpWM2lfzv4qun9cea/Cv2hfFbq2CFg9e4ac7heJQn5dFpzmmPfCjYvMOQXvEPeQ5AYuCUP8p8CIuKCR1HXoiOCbb5ntYJeYHUzzcyoI340lYsYGXOaoLgPSTHBaI3yUP+isX2zb8gFfv54P+gVN5noKlattQonwS9bAe/XhuKHxUlFR77H21bczxZztl4z22KAtii7IgtigLYouyILYoy+EoX4NRERME/zlxAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
-                                    </scg:List>
-                                  </uix:TargetAnchorable.Anchors>
-                                </uix:TargetAnchorable>
-                              </uix:NTypeInto.Target>
-                            </uix:NTypeInto>
-                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Código referência'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="412,225" sap2010:WorkflowViewState.IdRef="NTypeInto_9" Text="[string.Format(&quot;00{0}&quot;, Remessas.Sheet(&quot;Sheet1&quot;).Cell(&quot;A2&quot;))]">
-                              <uix:NTypeInto.Target>
-                                <uix:TargetAnchorable DesignTimeRectangle="131, 234, 193, 21" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Edit' idx='2' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Edit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMUAAAAZCAYAAACBxOqkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABpSURBVHhe7dNBDYAwAMBAdE/1HMCDBEIBBbtLKqHbnHOXdGcKKV1TjDGkpfucAlZlCghTQJgCwhQQpoAwBYQpIEwBYQoIU0CYAsIUEKaAMAWEKSBMAWEKCFNA/E4hrdxrCklnppAezf0Aqdp9NHmSElwAAAAASUVORK5CYII=" InformativeScreenshot="8c373b0ab67b73ab0e4322ff15841017.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="FuzzySelector, Image">
-                                  <uix:TargetAnchorable.Anchors>
-                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                      <uix:Target DesignTimeRectangle="27, 234, 90, 17" ElementType="Text" FriendlyName="'Código referência'" FullSelectorArgument="&lt;wnd cls='Static' title='Código referência:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='Código referência:' check:text='Código referência:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAVCAYAAADPTVnBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH6SURBVFhH7VfRscQgCLQq67Ebi7EXa0kHPjBigKjJvbnEj/NjZ05YEVfEnNm2LS28jyX8JCzhJ2EJPwlC+OhdssYkg7A2uRAFOXqbjAvCVhF9stan2PI9hOAgH8jVhba/CcwT5lgv9/Y2qvBZVBAuxOKMITljk6fxFpOHwzjGCiT8aweA+bkUmr4+gsODgrmjvYzwpf1V4Yei3sHbFf/2el9GFX64Cdiks9SCWJUxu4WDwxsjKl7MK/5RPEKO4ZLLrQT8iu/zbSxjqvoT506cg+NL2zJwy2vrwnWIn+3QnjK/7COw1szn3biNN4THFoPXc++JR59XdkhCCi/9R8K9eGxN5GKbyxzV4igOF2DEuROHREU7isnzpLeAWm/g6zKIfK5xLbwOyBMe2T+dR2Ntw9+1qo7qEgJ8i8PX5jlwcDv8xreixmvxO7ju8TqBXmLa/uk8Gmsb/m5d2yc4fKzt2p/bCR4c3YgOv4MqfP+rptcaGnaRsPSfrvApXlkXITahr3zxPcJh9hNft5q9j1Ox4qf4vyoeIb7jYZEqGiRzPEoqycK38DidNsL8/ce1kSyPkcewycrnj+ITHDbmfNKD+ble9eMix9kPJVDMBoTwTyI/vr0/Xz+IR4Wnf5aiwhq8X8RrFb8gsYSfhCX8JCzhJ2EJPwlL+CnY0h8Ed/vJCtjj4gAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
-                                    </scg:List>
-                                  </uix:TargetAnchorable.Anchors>
-                                </uix:TargetAnchorable>
-                              </uix:NTypeInto.Target>
-                            </uix:NTypeInto>
-                            <uix:NClick ClickType="Single" DisplayName="Click 'Localizar remessa'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left">
-                              <uix:NClick.Target>
-                                <uix:TargetAnchorable DesignTimeRectangle="27, 258, 299, 25" ElementType="Button" FriendlyName="'Localizar remessa'" FullSelectorArgument="&lt;wnd cls='Button' title='Localizar remessa' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Localizar remessa' check:text='Localizar remessa' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAS8AAAAdCAYAAAD7G+rKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVHhe7djNccMgEIZh9aRuaEatqAEXoVLcgTsg/C1aYbAOnmS0ynt4JsqaRfjAN+Dp9Xp5ALCG8AJgEuEFwKRDeD0eDwC4LJ1Xb+H1fD4B4HIILwAmEV4ATCK8AJhEeAEwifACYBLhdQfb4ud58Vvvs2/95tzAFwivO/iL8CLEcDGE1x1w8sI/RHjdwShgQt3Nk5+mYHZ+rfV1r0+zd+uW66vzc6pJPc/RnrxWJ2OiMu+w13nn5n1cen9Tb9a5bO2Yyc/L6pf0rNbb6wv1bck9aeySx/Zq3TXHOkwgvO4gbfQ2vDa/hI0tGz1tXrfuddnAMcjCxpWNX8mc7V81Zp9T9UW6J84tYaM/r/W4HvX+tleCTD+ndQz6nvH7lKBMffG5Vyt9ovY3dVwW4XUHvY3X1uT/T5s0fOZCIOSTSKDH9+bTIfCpV8aosbWe5ik9VQy2Zkz7POrbcjhPYS0unNa2FG69Wp7rbc2xDhMIrzvQm3tU05u+u0nLCUxdyQ7jD33l9FavWSe9aYyi6/H57CTUex71iXCizNdMHbC6NlizjMXlEV530N14EjB5c55fG/PVSq5h2+KGJ6/36+JJbx1XHOrtet7fdxhfnwd9Ekr1xCXfrVfrrDnOBRMIrzuIG/dwfQpiuIT6/oO22phx40o9bOo94PYfsOd4nYo9EgpNaNT3lFD42Cvvre9v6no9hx/sy5jhc6cv1A9rKeF2WpM1x3lhAuEFwCTCC4BJhBcAkwgvACYRXgBMIrwAmHQaXgBwVTqvDuEFAFYQXgBMIrwAGPTyPwFvbUKdV7iyAAAAAElFTkSuQmCC" InformativeScreenshot="0588d2a3eba622349d83d32602cbe3e7.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
-                              </uix:NClick.Target>
-                            </uix:NClick>
-                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="412,80" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="466,80" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                            <ueab:ExcelForEachRow DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="466,1500" sap2010:WorkflowViewState.IdRef="ExcelForEachRow_4" Range="[Remessas.Sheet(&quot;Sheet1&quot;)]" SaveAfterEachRow="False">
+                              <ueab:ExcelForEachRow.Body>
+                                <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                                  <ActivityAction.Argument1>
+                                    <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                                  </ActivityAction.Argument1>
+                                  <ActivityAction.Argument2>
+                                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                  </ActivityAction.Argument2>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="454,1315" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Código da remessa'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="412,225" sap2010:WorkflowViewState.IdRef="NTypeInto_10" Text="[string.Format(&quot;00{0}&quot;, Remessas.Sheet(&quot;Sheet1&quot;).Cell(&quot;A2&quot;))]">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable DesignTimeRectangle="131, 210, 193, 21" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Edit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMUAAAAZCAYAAACBxOqkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABpSURBVHhe7dNBDYAwAMBAdE/1HMCDBEIBBbtLKqHbnHOXdGcKKV1TjDGkpfucAlZlCghTQJgCwhQQpoAwBYQpIEwBYQoIU0CYAsIUEKaAMAWEKSBMAWEKCFNA/E4hrdxrCklnppAezf0Aqdp9NHmSElwAAAAASUVORK5CYII=" InformativeScreenshot="852dd23ca1d19e844679d2eee72526d5.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target DesignTimeRectangle="27, 210, 97, 17" ElementType="Text" FriendlyName="'Código da remessa'" FullSelectorArgument="&lt;wnd cls='Static' title='Código da remessa:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='Código da remessa:' check:text='Código da remessa:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGUAAAAVCAYAAABfXiAOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIRSURBVGhD7VfhjcYgCHUq53Ebh3EXZ+kGHlihYNH2cvddTM4fL8FXoZSnaN1xHGVjLWxRFsQWZUFsURaEEiXHULxzxSG8LyFlNTlHX1xIimPkWLyPJVvPfopPxl4QLEotOHx4yu1hTiU4XyKNj1wiCHWNO1DhPlHA/yrKtOBvsHfKr4FFmX40FCV4amuhJIP3ICruNLVTlF97PosnYcVGPokWCzs5pLufh5ghgI+D2N276sJTcyB+TCVWW7Rsyw/42lHo3fGca3HjPLEDDb654YUo2LYcJ3udKx0PSWhR9POzEHfePqcGsdUcAMfsOChCrL4YR3QAmk9zSCBpc46Gnyxo9UPb4pofgf07foBnUfqANH7iv+tHY4uTY7AD7hxahTNftHm1ElCwbk5vj/zyuVjqJQh2V66iWdwZa5rnBM9nikxajp/47/rR2OJ43C4ft93X5vUc2k8r17JHfgS4BJ3tTsxR3Is8J2BRxrevrpWM2lfzv4qun9cea/Cv2hfFbq2CFg9e4ac7heJQn5dFpzmmPfCjYvMOQXvEPeQ5AYuCUP8p8CIuKCR1HXoiOCbb5ntYJeYHUzzcyoI340lYsYGXOaoLgPSTHBaI3yUP+isX2zb8gFfv54P+gVN5noKlattQonwS9bAe/XhuKHxUlFR77H21bczxZztl4z22KAtii7IgtigLYouyILYoy+EoX4NRERME/zlxAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NTypeInto.Target>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </uix:NTypeInto>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Código referência'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="412,225" sap2010:WorkflowViewState.IdRef="NTypeInto_11" Text="[string.Format(&quot;00{0}&quot;, Remessas.Sheet(&quot;Sheet1&quot;).Cell(&quot;A2&quot;))]">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable DesignTimeRectangle="131, 234, 193, 21" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Edit' idx='2' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Edit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMUAAAAZCAYAAACBxOqkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABpSURBVHhe7dNBDYAwAMBAdE/1HMCDBEIBBbtLKqHbnHOXdGcKKV1TjDGkpfucAlZlCghTQJgCwhQQpoAwBYQpIEwBYQoIU0CYAsIUEKaAMAWEKSBMAWEKCFNA/E4hrdxrCklnppAezf0Aqdp9NHmSElwAAAAASUVORK5CYII=" InformativeScreenshot="8c373b0ab67b73ab0e4322ff15841017.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="FuzzySelector, Image">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target DesignTimeRectangle="27, 234, 90, 17" ElementType="Text" FriendlyName="'Código referência'" FullSelectorArgument="&lt;wnd cls='Static' title='Código referência:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='Código referência:' check:text='Código referência:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAVCAYAAADPTVnBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH6SURBVFhH7VfRscQgCLQq67Ebi7EXa0kHPjBigKjJvbnEj/NjZ05YEVfEnNm2LS28jyX8JCzhJ2EJPwlC+OhdssYkg7A2uRAFOXqbjAvCVhF9stan2PI9hOAgH8jVhba/CcwT5lgv9/Y2qvBZVBAuxOKMITljk6fxFpOHwzjGCiT8aweA+bkUmr4+gsODgrmjvYzwpf1V4Yei3sHbFf/2el9GFX64Cdiks9SCWJUxu4WDwxsjKl7MK/5RPEKO4ZLLrQT8iu/zbSxjqvoT506cg+NL2zJwy2vrwnWIn+3QnjK/7COw1szn3biNN4THFoPXc++JR59XdkhCCi/9R8K9eGxN5GKbyxzV4igOF2DEuROHREU7isnzpLeAWm/g6zKIfK5xLbwOyBMe2T+dR2Ntw9+1qo7qEgJ8i8PX5jlwcDv8xreixmvxO7ju8TqBXmLa/uk8Gmsb/m5d2yc4fKzt2p/bCR4c3YgOv4MqfP+rptcaGnaRsPSfrvApXlkXITahr3zxPcJh9hNft5q9j1Ox4qf4vyoeIb7jYZEqGiRzPEoqycK38DidNsL8/ce1kSyPkcewycrnj+ITHDbmfNKD+ble9eMix9kPJVDMBoTwTyI/vr0/Xz+IR4Wnf5aiwhq8X8RrFb8gsYSfhCX8JCzhJ2EJPwlL+CnY0h8Ed/vJCtjj4gAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NTypeInto.Target>
+                                    </uix:NTypeInto>
+                                    <uix:NClick ClickType="Single" DisplayName="Click 'Localizar remessa'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable DesignTimeRectangle="27, 258, 299, 25" ElementType="Button" FriendlyName="'Localizar remessa'" FullSelectorArgument="&lt;wnd cls='Button' title='Localizar remessa' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Localizar remessa' check:text='Localizar remessa' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAS8AAAAdCAYAAAD7G+rKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVHhe7djNccMgEIZh9aRuaEatqAEXoVLcgTsg/C1aYbAOnmS0ynt4JsqaRfjAN+Dp9Xp5ALCG8AJgEuEFwKRDeD0eDwC4LJ1Xb+H1fD4B4HIILwAmEV4ATCK8AJhEeAEwifACYBLhdQfb4ud58Vvvs2/95tzAFwivO/iL8CLEcDGE1x1w8sI/RHjdwShgQt3Nk5+mYHZ+rfV1r0+zd+uW66vzc6pJPc/RnrxWJ2OiMu+w13nn5n1cen9Tb9a5bO2Yyc/L6pf0rNbb6wv1bck9aeySx/Zq3TXHOkwgvO4gbfQ2vDa/hI0tGz1tXrfuddnAMcjCxpWNX8mc7V81Zp9T9UW6J84tYaM/r/W4HvX+tleCTD+ndQz6nvH7lKBMffG5Vyt9ovY3dVwW4XUHvY3X1uT/T5s0fOZCIOSTSKDH9+bTIfCpV8aosbWe5ik9VQy2Zkz7POrbcjhPYS0unNa2FG69Wp7rbc2xDhMIrzvQm3tU05u+u0nLCUxdyQ7jD33l9FavWSe9aYyi6/H57CTUex71iXCizNdMHbC6NlizjMXlEV530N14EjB5c55fG/PVSq5h2+KGJ6/36+JJbx1XHOrtet7fdxhfnwd9Ekr1xCXfrVfrrDnOBRMIrzuIG/dwfQpiuIT6/oO22phx40o9bOo94PYfsOd4nYo9EgpNaNT3lFD42Cvvre9v6no9hx/sy5jhc6cv1A9rKeF2WpM1x3lhAuEFwCTCC4BJhBcAkwgvACYRXgBMIrwAmHQaXgBwVTqvDuEFAFYQXgBMIrwAGPTyPwFvbUKdV7iyAAAAAElFTkSuQmCC" InformativeScreenshot="0588d2a3eba622349d83d32602cbe3e7.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="412,78" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                                    <uix:NGetText DisplayName="Get Text 'Remessa'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NGetText_14">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable DesignTimeRectangle="357, 140, 189, 17" ElementType="InputBox" FriendlyName="'03-00019078'" FullSelectorArgument="&lt;wnd cls='Edit' idx='4' /&gt;&lt;ctrl name='Destinatário:' role='editable text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Edit' /&gt;&lt;ctrl name='Destinatário:' role='editable text' automationid='' /&gt;" InformativeScreenshot="18458c7040141f0c5ad164b0c2adb9fa.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="FuzzySelector">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target DesignTimeRectangle="355, 122, 51, 17" ElementType="Text" FriendlyName="'Remessa'" FullSelectorArgument="&lt;wnd cls='Static' title='Remessa:' /&gt;&lt;ctrl name='Remessa:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='Remessa:' /&gt;&lt;ctrl name='Remessa:' role='text' automationid='' check:text='Remessa:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAVCAYAAADiv3Z7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFCSURBVFhH7VTBEcQgCLQq6qEbi7GVjLXYAQcYOTUx5nEfc7mZneHWrLKAupQSPRWvuVXxJ+aiJ3COXAMgDK1gJbTmwFOsFmPAA7cSLs2lFAgdUmi4dXC/c7yOsI8rIPlYNEiIoDz4QF5jGedo+x50srfPGv3W52/PuCQ5KLfzdk3mhb++c5xM0GQieQBLzAqhmp3vYy3KQFcnpjqJz7hdV2D6jh9g3LnIXeDEtFJ6WGdcjIRKU+tLPNJFMc2x7M/djlbAnst7IXOm/4k5AY+Ew7Cbm1TyLB7pCqSAOsbVNw0n3ZQifkf8kOMFbj4ouap2D+rke0NNPNCVpK1jEo+4+p5yscsZNzAxVw6RdT6ofxim5gY65iXRMrJgD8qEk/G0HLNx6/gJvuYeiNfcqnjNrQozt23b49CYe9rvYK78Xx+JPraX0QKIXHbvAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                      <uix:NGetText.Text>
+                                        <OutArgument x:TypeArguments="ue:ExcelValue">[Remessas.Sheet("Sheet1").Cell("B2")]</OutArgument>
+                                      </uix:NGetText.Text>
+                                    </uix:NGetText>
+                                    <uix:NGetText DisplayName="Get Text 'Postado'" sap:VirtualizedContainerService.HintSize="412,165" sap2010:WorkflowViewState.IdRef="NGetText_15">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable DesignTimeRectangle="355, 218, 393, 24" ElementType="Text" FriendlyName="'Postado'" FullSelectorArgument="&lt;wnd cls='Static' title='Postado' /&gt;&lt;ctrl name='Postado' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='Postado' /&gt;&lt;ctrl role='text' automationid='' /&gt;" InformativeScreenshot="37dfe9fd3e24130da68321914abdecaf.png" ScopeSelectorArgument="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00' /&gt;" SearchSteps="FuzzySelector" />
+                                      </uix:NGetText.Target>
+                                      <uix:NGetText.Text>
+                                        <OutArgument x:TypeArguments="ue:ExcelValue">[Remessas.Sheet("Sheet1").Cell("C2")]</OutArgument>
+                                      </uix:NGetText.Text>
+                                    </uix:NGetText>
+                                  </Sequence>
+                                </ActivityAction>
+                              </ueab:ExcelForEachRow.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ueab:ExcelForEachRow>
                           </Sequence>
                         </ActivityAction>
                       </uix:NApplicationCard.Body>
                       <uix:NApplicationCard.TargetApp>
                         <uix:TargetApp Area="-1204, 243, 768, 304" FilePath="[string.Format(&quot;{0}\case-de-rpa\STLOG\stlog.exe&quot;, Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments))]" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAZNSURBVFhH7ZR7VNb1Hcd/EfBgExRoMyJFo8RLYpiilUyQxA2y2cqFIxmn6dE5Ey0UVK4iIGggig/KQ3gnRawpWnNdbLJzvOAVUARxYinPaq3Us0tiPa99vt/nZ3TZzE6e/vJzzvv8Hg6/7+f9+ly+P+NW3IpbcStudnAoMoHGCXD6OWj6NTQ8DXVjofZReDe0t/nazQnqIh6kUQzOTofzSdCeAheS5fcceP8FeG8WnHse/ir/b50qUJMFJgp299cy09x4cEgqORUPbZJUGV6YK6ZiqEz1U/5WOv+iAMwW85nw6j3wh16wow/sCoQ3+n43AEfzeBwnYnA0jBPjGc6kqjJVoYaQajWIqF5av8kHKn1h851Q9ROovksg/AWip0D0/gqEaXH9OFD1KJf3jcZxaBSOfSNw7AlxVlAjFVX7wZo7nFr7I1jXFdZ7wYbuTpBXBGTLj2FrD9h295cg7hOIoP8NkLWklOUVW7Ft2s6G6jeornmbnW/W8vbeOhaljKM8tRev5fhzZIUfn22WCm3uUC562SLyMGFMkI3end34AkLGoeB33d8JMCdl/ieXLl3mrb2Hybdu+r8A++qOc6y+icUrN1JQWom9TJKvug1Wu4huhzJXE8YEWecpENINBbFFQZjj2B4AO+91ApSs2RZ+of0DgoMH069ffwYMGMgDgwbTtasnGyu30HS6jZMtZ8kpXqMlR4iOjqbcZsNu7cbVFQaflRh8vtKAUpGCsQmI6sg3IGQcamyvyWLKKDRAxeaa8Hb7h4wcGUZY2E+JGP0YY8ZGk/jCXNIX5rK02EpqdgHZhTYmJfyWSfEJ9LjLT4PYl3fhXy8Z/LvQ4NNlBh3LTRDVFd0NE2K9gpBxqJ1Qi2mOQgOo+M+nV/D19aVnr94MDA5h8JBQxo57iqfjniNh2iyefCYetRsnTrUSPiaGBx8azkNDhmAvcuPiYoNL+QaXCwwNo0BUR76AUJ1QC7qhW+co1M2QLpj2htH2fjvvnbfTcuYcTS1tdHRclZEE8xsxnzxjDkEDBpGRX0Jh2RbcLRZyisp4/MkJ2JcYfLjQ4O/ZBv/IMTTMP5d+DcLmBhVdzFE4uyCW1+SM+pOnOX6ilWONLRypb6bx1BkcDgefiw4caeTw8SZSc5eRlltMet5yDZNZYNUA51MN2tMN/pZp8NGiTogrxQYOq9oJWU7pwpiHgwgICCAwMBBvb+9OcxX7Dzdg/+AjjjQ0U/OnWl5+pYZ1VTX8pa6e/YcbOXTsJPOzl7Jg0Uuk5hQ5QRav0ABnkw3aUpwg9gwnhBqJ2ouKyT74+/vTp08funfvTmhoKOOfGIfValUA3US3a4B39x9lypQpxE6cyOt/fIuMjAxWl9m4cqWDAyZASmY+87IKTJBC0vKKNUDzbIPWpE6Ic5keJKYt1Vd1WXmVLPdI4p+NIysrC09PT1JSUggKCsLd3T3R1dV1oAb484FjlK+tJDExkVGjRrFz12591WJiYjh41DmCuek5JGfkaZDp83OYlJTBRZl14wyDpkSDuKRMrNXbKdq4VZsrqcXu27cvsbGxJCcn4+bmtjIiIuKiPGPFPFCsLRqgVj4wPXsFYLVtYNiwYZp66rTfMXXqNF390fpTJC1YyNy0RRxvbKa55Qzv1NbpReo9IJjZ+bIX1gpGPpXApFnzlNHqa1K5IiMj8fPzWy+mURaLpYecc9XGKqr27OXnz07TC3JPzwDSs3L0rMLCwsjMzJalbKL+RAsvzssgPbeQV3ftYejQofj4+ODi4kI3H18ei3+eCTO/aixaJSqUVv9eNEysvEQu2vTLoQCuSUXH1asMGv0Ew4cPF42gtWE3fFxJ2QP36rZGRUWRl5dHXFycfC27ft1UySqGufKMk4qDxKKL6DZtdp2Qd10D5eAvFUhBQQElFWvZ9OY7lG7bQejjExkUOV4DhIeHk5a6gIMHD+oZm6aq2hJRquSIFt0tOd1E32p8LSxyeIRosihLtExUKlqlAJKWlPCrmQu0oVpOtVBD5Evo5eW1Q94pEsOZ8nxE8niLvtnmGwxFq6i9pRv9RD+TxNNF2ZK8WLRSVKJuiVqqkJAQtc3x8l5/OXOHef6mhqrE4uHhcaeYDBSz0QLzC1Oh5jZ/pzZ/n1AmSurLpa7QD2L6A4Rh/Bco+s+KYd8c+wAAAABJRU5ErkJggg==" InformativeScreenshot="c6b08e4ed2dc44214125c3041cf2228b.png" Selector="&lt;wnd app='stlog.exe' cls='AutoIt v3 GUI' title='ST Logística - Rastreamento de Pacotes v1.00'/&gt;" />
                       </uix:NApplicationCard.TargetApp>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </uix:NApplicationCard>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Rastreamento'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="520,225" sap2010:WorkflowViewState.IdRef="NTypeInto_12" Text="[Remessas.Sheet(&quot;Sheet1&quot;).Cell(&quot;B2&quot;)]">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="1042, 368, 125, 26" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl role='editable text' automationid='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIEAAAAeCAYAAAALkH3GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADPSURBVGhD7ds9DsIwDIZh7n84JhY6AP1D6SEi469UoQ2CAzjvI3np6lednJOheUQAIkAVQT8l6+6jnS8dE3C622jDvGzb/igRKIB+TpZz3r4gGu32vedjCCUCVUIA8WnHV9/1XolAvwu0od41ETSICEAEIAI4IgARgAjgiABEACKAIwIQAYgAjghABCACOCIAEeBPBNwYtkE71q73SgQ6RebaODbt9jElG54/ro1Fp8iqRL8LJt6s7w6qAOQYAY9PQs8aAY9P2qbdfj8+MXsBQyJv4LYuDB0AAAAASUVORK5CYII=" InformativeScreenshot="fe6f407a073a3e7764306fb6429e301b.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='EloGroup - RPA Challenge - Controle de Pedidos - Trabalho — Micr*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" SelectionStrategy="AA">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1042, 352, 71, 16" ElementType="Text" FriendlyName="'Rastreamento'" FullSelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl name='Rastreamento' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='EloGroup - RPA Challenge - Controle de Pedidos' role='document' /&gt;&lt;ctrl name='Rastreamento' role='text' automationid='' check:text='Rastreamento' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEsAAAAUCAYAAADFlsDIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHESURBVFhH7ZS9TsQwDMd5YFZGlo7dOnbrci/RocMtbEinnm7oghAMvXsJ4yR2Yydpr0GAGPKXLDUfduxfnD5A0W4VWBkqsDJUYGWowMpQgZWhAitDAtYN+voZHp+kHeBEq/tFcboLjf+prkeosMZ2pPEOxbDqI8x2fIHWAMsu+rt+f6zxYBvih2DJcdh13HEEhqwd9dj6UlJ+D8A8NGKOYgX7quGGk3xuA9VyfgNt5/2XYqlT9DzlU6M/ryVycmcBnDo/l3pV67DocA60iJPCznHBG+ivtGYVdBYnpsbsk+5CH9fDMvsZsstJ+rpvXbQplvZQ4exvQVJeDFutRY3jtPHPCiEE5DFJ2SHLDa/ASt8eWXBBbl7C0t0XFcQXosz4Uy4cX/qnYolucrVpBiudxc60WXTTaufcWdew1i7CzftE82BFr4Bz+V1YKAYkkrGBFTiWBLQNKxpjvH7UZ3twO2GFUMzaIHLheemvYoVwAhakjR+8fzLV8OIOtQfTzxJh6CcV3orZi7FCOKhlncwkLOcqPCMPFko9YTR5cSlY7I9j3fVsvh6WgFV0TwVWhgqsDBVYGVKw3j9nmN4+4PU8FYtsgi9aMaDDJCh6OQAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
                   </Sequence>
                 </ActivityAction>
               </ueab:ExcelApplicationCard.Body>
